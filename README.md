@@ -1,0 +1,1 @@
+`git clone` this and open in a browser to get started
