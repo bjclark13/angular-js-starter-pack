@@ -1,3 +1,3 @@
 "use strict";
-// getter syntax
-angular.module("App", []);
+// setter syntax
+angular.module("MyApp", []);

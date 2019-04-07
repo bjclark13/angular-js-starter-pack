@@ -1,7 +1,10 @@
 "use strict";
-function MyCtrl($scope) {  
+function MyCtrl() {  
   // Control the world
+  const ctrl = this;
+
+  // Do Something with ctrl
 }
 angular
-  .module("App")
+  .module("MyApp")
   .controller("MyCtrl", MyCtrl);
