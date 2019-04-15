@@ -13,15 +13,20 @@
     <h1>Build beautiful things</h1>
 
     <input type="text" ng-model="message"/>
+    <ng-model></ng-model>
     <p>{{message}}</p>
   </section>
 
   <my-parent></my-parent>
+
+  <a href="#" my-directive>Hover me</a>
 
   <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
   <script src="app.module.js"></script>
   <script src="app.controller.js"></script>
   <script src="components/my-parent/myParent.js"></script>
   <script src="components/my-child/myChild.js"></script>
+  <script src="components/myDirective.js"></script>
+
 </body>
 </html>
